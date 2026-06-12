@@ -1,0 +1,19 @@
+body { margin: 0; background-color: #0f0f0f; color: white; font-family: Roboto, Arial, sans-serif; }
+
+.header { display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; position: sticky; top: 0; background: #0f0f0f; }
+.search-bar { width: 500px; padding: 10px; border-radius: 20px; border: 1px solid #333; background: #121212; color: white; }
+
+.main-container { display: flex; }
+.sidebar { width: 200px; padding: 20px; }
+.menu-item { padding: 10px; cursor: pointer; border-radius: 10px; }
+.menu-item:hover { background: #333; }
+
+.content { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; padding: 20px; flex-grow: 1; }
+
+.video-card { cursor: pointer; }
+.thumbnail { width: 100%; border-radius: 12px; transition: 0.3s; }
+.thumbnail:hover { border-radius: 0; }
+
+.video-info { margin-top: 10px; }
+.title { font-size: 16px; margin: 0; font-weight: bold; }
+.channel { font-size: 14px; color: #aaa; margin: 5px 0; }
